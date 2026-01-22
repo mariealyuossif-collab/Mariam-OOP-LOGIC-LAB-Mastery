@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp33
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            number obj1 = new number(20,60);
+            number obj2 = new number(12,15);
+            obj1.show();
+            obj1.sub();
+            obj1.mul();
+            number.div(6,3);
+
+            Console.WriteLine( obj1.n1 + " "+ obj1.n2);
+            Console.WriteLine(obj1.sub());
+            Console.WriteLine(obj1.sum(12, 13));
+            Console.WriteLine(obj1.mul());
+            Console.WriteLine(number.div(6,3));
+        }
+    }
+}
