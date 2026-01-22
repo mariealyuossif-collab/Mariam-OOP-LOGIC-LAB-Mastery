@@ -4,32 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp31
+namespace ConsoleApp32
 {
     internal class number
     {
         public int x;
-        public int y;
-        public string name;
+        public float c;
         public number()
         {
-            x = 0;
-            y = 0;
-            name = "null";
+            this.x = 12;
+            this.c = 17;
         }
-        public number(int v1, int v2, string c)
+        public void show()
         {
-            x = v1;
-            y = v2;
-            name = c;
+            Console.WriteLine("int number" + this.x + "float nuber" + this.c);
         }
-        public number(string s)
+        public number(int v1, float v2)
         {
-            name = s;
-            x = 15;
-            y = 16;
+            this.x = v1;
+            this.c = v2;
         }
-        
+
 
     }
 }
