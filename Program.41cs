@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp41
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Tablet t1 = new Tablet();
+            t1.name = "A";
+            t1.qauntity = 115;
+            t1.Price = 0;
+            t1.printdata();
+            t1.calculatepillprice();
+        }
+    }
+}
