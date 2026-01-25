@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp37
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            structure st1 = new structure();
+            st1.Id = 200;
+            st1.price = 100;
+            st1.Titlename = "qus";
+            st1.instructor = "mariam youssif";
+            st1.price = st1.price - 50;
+            st1.printdata();
+        }
+    }
+}
