@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp51
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            var patients = new List<patient>();
+            patients.Add( new patient("mariam", 50));
+            patients.Add(new inpatient("kareem", 50, 7));
+            patients.Add(new outpatient("marwan", 50, 2024));
+            foreach (var patient in patients)
+            {
+                patient.printinfo();
+                
+            }
+            Console.WriteLine(hospital.Patientcount);
+
+
+        }
+    }
+}
