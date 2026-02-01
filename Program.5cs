@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp50
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            manager m = new manager("mariam" , 5000, 100);
+            m.printinfo();
+            company.increasecount();
+            Developer d = new Developer("ahmed" , 6000, "English");
+            d.printinfo();
+            company.increasecount();
+            employee e1 = new manager("mostfa", 7000, 200);
+            employee e2 = new Developer("marwan", 8000, "aribic");
+            e1.printinfo();
+            e2.printinfo();
+            company.increasecount();
+            company.increasecount();
+            Console.WriteLine(company.employeecount);
+        }
+    }
+}
